@@ -1,72 +1,37 @@
-body {
-  padding: 0;
-  font-family: "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  color: #000000;
-  background: #ffffff url("https://i.pinimg.com/originals/65/5c/46/655c4693b7944cfb301ab08927a0a7f9.jpg") repeat 50% 0;
+body{
+background: url(fon.png) repeat;
 }
 
-h1 {
-  width: 260px;
-  font-family: "Arial", sans-serif;
-  font-size: 36px;
-  line-height: 36px;
-}
-
-.site-header {
-  margin-bottom: 190px;
-}
-
-.skills-item {
-  margin-bottom: 5px;
-}
-
-.container {
-  width: 480px;
+.main {
+  width: 600px;
   margin: 0 auto;
+  text-align: justify;
 }
 
-.site-header img {
-  display: block;
-  margin: 0 auto;
+a.captain{
+  color: green;
 }
 
-.features {
-  margin-bottom: 30px;
+.center{
+  text-align: center;
 }
 
-.features p {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin: 0 5px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  text-transform: uppercase;
+td.good{
+  background-color: green;
 }
 
-.feature-kitten {
-  padding-top: 60px;
-  background-image: url("img/bottle.svg");
+td.mark{
+  background-color: yellow;
 }
 
-.feature-cat {
-  padding-top: 60px;
-  background-image: url("img/cat.svg");
+td.bad{
+  background-color: red;
 }
 
-.feature-train {
-  padding-top: 60px;
-  background-image: url("img/whistle.svg");
+td.none{
+  background-color: black;
 }
 
-.skills-list {
-  padding: 0;
-}
-
-.site-footer {
-  display: flex;
-  justify-content: space-between;
-  color: #999999;
+table{
+  border-spacing: 2px 4px;
 }
