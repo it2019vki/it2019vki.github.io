@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #000000;
-  background: #ffffff url("https://i.pinimg.com/originals/65/5c/46/655c4693b7944cfb301ab08927a0a7f9.jpg") repeat 50% 0;
+  background: #ffffff url("https://i.pinimg.com/originals/65/5c/46/655c4693b7944cfb301ab08927a0a7f9.jpg") no-repeat 50% 0;
 }
 
 h1 {
