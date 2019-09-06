@@ -16,22 +16,33 @@ a.captain{
   text-align: center;
 }
 
-td.good{
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
   background-color: green;
-}
-
-td.mark{
-  background-color: yellow;
-}
-
-td.bad{
-  background-color: red;
-}
-
-td.none{
-  background-color: black;
-}
-
-table{
-  border-spacing: 2px 4px;
 }
