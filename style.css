@@ -33,6 +33,23 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+td.student {
+	width:200px;
+}
+
+td.yes {
+	background:url(green_one.png) no-repeat;
+	background-color: #dddddd;
+	background-size: 15px 15px;
+	background-position: center;
+}
+td.no {
+	background:url(red_one.png) no-repeat;
+	background-color: #dddddd;
+	background-size: 15px 15px;
+	background-position: center;
+}
+
 .button {
   background-color: #4CAF50;
   border: none;
