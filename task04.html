@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Работа №3</title>
+	<style>
+		a:link {
+		  color: SaddleBrown;
+		}
+
+		a:visited {
+		  color: SaddleBrown;
+		}
+
+		a:hover {
+		  color: SaddleBrown;
+		}
+
+		a:active {
+		  color: SaddleBrown;
+		}
+		a:hover{
+		background-color: Yellow;
+		}
+		.validation {
+		background-color: Bisque;
+		padding: 2px 2px 2px 20px;
+		border: 1px #777 solid;
+		}
+		
+		.gift_style {
+		background-color: LightGreen;
+		padding: 2px 2px 2px 20px;
+		border: 1px #777 solid;
+		}
+		
+		.giftBox {
+			display: none;
+		}
+		
+		.giftBox:target {
+		display: block;
+		}
+	</style>
+  </head>
+<body>
+<div class="main">
+	<p>
+		В CSS имеется такой замечательный инструмент как <a href="http://htmlbook.ru/samcss/psevdoklassy">псевдоклассы</a> и <a href="http://htmlbook.ru/samcss/psevdoelementy">псевдоэлементы</a>.
+		С их помощью можно задать новые свойства при выполнении определённого действия или при определённых условиях (выделить первый символ в абзаце, выделение первой строки абзаца, задание определённых свойств для чётных или нечётных элементов, изменение свойств при наведении курсора, при переходе по якорной ссылке и.т.д.).
+	</p>
+
+	<p>	
+		Задание заключается в создании области (с границами) и ссылок. При нажатии ссылки в области появляется определённая информация (текс, списки, картинки, таблицы и.т.д.). Первая буква абзаца должна быть больше всех остальных и отличаться от остального текста. Одна из ссылок должна показать таблицу. В таблице чётные и нечётные строки должны иметь различный стиль. Сделать для первой и последней строки таблицы свой стиль. 
+	</p>
+	<p class = "validation">
+		Не забываем про валидацию вашей странички на <a href="https://validator.w3.org/">сайте</a>.<br><br>
+		Сдача лабораторной: 10.10.2019.
+	</p>
+	По желанию:<a href="#gift">Отрыть сундук с сокровищем!</a>
+	<div class="giftBox" id="gift" >
+		<p class = "gift_style">
+			 Используя псевдоклассы создать ссылку, которая покрывает всю страницу прозрачной пеленой и по центру страницы открывает область с информацией. В новой открытой области должна быть ссылка, которая скрывает эту область.
+			 <br><br>
+			 Это сокровище мне не подходит: <a href=""> Закрыть сундук!</a>
+		</p>
+		
+	</div>
+	
+
+</div>
+</body>
+</html>
