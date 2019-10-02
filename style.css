@@ -8,6 +8,12 @@ background: url(fon.jpg) repeat;
   text-align: justify;
 }
 
+.main_table {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
 a.captain{
   color: green;
 }
