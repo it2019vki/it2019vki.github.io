@@ -7,6 +7,13 @@ background: url(fon.jpg) repeat;
   margin: 0 auto;
   text-align: justify;
 }
+.main_fon {
+  width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+  background-color: Bisque;
+  border: 1px #777 solid;
+}
 
 .main_table {
   width: 1000px;
