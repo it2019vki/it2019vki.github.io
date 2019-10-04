@@ -13,6 +13,7 @@ background: url(fon.jpg) repeat;
   text-align: justify;
   background-color: Bisque;
   border: 1px #777 solid;
+  padding: 10px 10px 10px 10px;
 }
 
 .main_table {
