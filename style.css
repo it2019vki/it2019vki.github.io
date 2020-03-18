@@ -1,5 +1,5 @@
 body{
-background: url(fon.jpg) repeat;
+background: url(pictures/fon.jpg) repeat;
 }
 
 .main {
@@ -52,13 +52,13 @@ td.student {
 }
 
 td.yes {
-	background:url(green_one.png) no-repeat;
+	background:url(pictures/green_one.png) no-repeat;
 	background-color: #dddddd;
 	background-size: 15px 15px;
 	background-position: center;
 }
 td.no {
-	background:url(red_one.png) no-repeat;
+	background:url(pictures/red_one.png) no-repeat;
 	background-color: #dddddd;
 	background-size: 15px 15px;
 	background-position: center;
