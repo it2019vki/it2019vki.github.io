@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="package" />
         <option value="CSS File" />
+        <option value="package" />
       </list>
     </option>
   </component>
@@ -69,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584538781951</updated>
       <workItem from="1584538784578" duration="8467000" />
-      <workItem from="1584627505217" duration="1193000" />
+      <workItem from="1584627505217" duration="1839000" />
+      <workItem from="1584758207581" duration="1844000" />
     </task>
     <servers />
   </component>
@@ -77,6 +78,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584758225508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584758225508" />
     <state x="342" y="245" key="new project wizard" timestamp="1584538872966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
