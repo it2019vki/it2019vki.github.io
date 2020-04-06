@@ -70,7 +70,11 @@
       <updated>1584538781951</updated>
       <workItem from="1584538784578" duration="8467000" />
       <workItem from="1584627505217" duration="1839000" />
-      <workItem from="1584758207581" duration="1844000" />
+      <workItem from="1584758207581" duration="5500000" />
+      <workItem from="1584791659020" duration="242000" />
+      <workItem from="1585632800706" duration="986000" />
+      <workItem from="1586143900921" duration="58000" />
+      <workItem from="1586144348881" duration="2661000" />
     </task>
     <servers />
   </component>
@@ -78,10 +82,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584758225508">
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586143938270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584758225508" />
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586143938270" />
+    <state x="740" y="222" key="FileChooserDialogImpl" timestamp="1585632832503">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="222" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585632832503" />
+    <state x="625" y="220" key="NewModule_or_Project.wizard" timestamp="1585632848732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="220" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1585632848732" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1586144393417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586144393417" />
     <state x="342" y="245" key="new project wizard" timestamp="1584538872966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,0 +1,69 @@
+{
+  "group": "703б2",
+  "students": [{
+    "id": 0,
+    "name": "Ф.И.О.",
+    "siteURL": "Сайт"
+  },
+    {
+      "id": 1,
+      "name": "Бутонаева Л. А.",
+      "siteURL": "https://lina198.github.io/"
+    },
+    {
+      "id": 2,
+      "name": "Веселов Д. А.",
+      "siteURL": "https://ublackhose.github.io/"
+    },
+    {
+      "id": 3,
+      "name": "Дроботенко К. А.",
+      "siteURL": ""
+    },
+    {
+      "id": 4,
+      "name": "Иванов А. О.",
+      "siteURL": "https://halkhard.github.io/ "
+    },
+    {
+      "id": 5,
+      "name": "Кобачков Д. А.",
+      "siteURL": "https://danilkobachkov.github.io"
+    },
+    {
+      "id": 6,
+      "name": "Котиков Е. В.",
+      "siteURL": "https://sarrrion54.github.io  "
+    },
+    {
+      "id": 7,
+      "name": "Кротов В. С.",
+      "siteURL": ""
+    },
+    {
+      "id": 8,
+      "name": "Михайлов Д. С.",
+      "siteURL": "https://mihaylov-d0990.github.io"
+    },
+    {
+      "id": 9,
+      "name": "Назаров М. А.",
+      "siteURL": "https://citizenofputingrad.github.io/"
+    },
+    {
+      "id": 10,
+      "name": "Прилепко Д. В.",
+      "siteURL": "https://arhivater.github.io  "
+    },
+    {
+      "id": 11,
+      "name": "Райлян И. А.",
+      "siteURL": "https://irina2001.github.io/"
+    },
+    {
+      "id": 12,
+      "name": "Шейкнехт Э. В.",
+      "siteURL": "https://emma3110.github.io/"
+    }
+  ]
+}

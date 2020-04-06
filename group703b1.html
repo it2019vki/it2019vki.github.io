@@ -5,18 +5,18 @@
 	  <meta charset="utf-8">
 	  <link rel="icon" type="image/png" href="pictures/icon.png">
 	  <link rel="stylesheet" type="text/css" href="style.css">
-	  <title>Полезные ссылки</title>
-	<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script></head>
+	  <title>Группа 703б1</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	</head>
 	<body>
-		<div class="main_table">
+		<div class="main_table" ng-app="myApp" ng-controller="myCtrl" >
 			<h2 class = "center" >Группа 703б1</h2>
 
 			<table>
-			    <tr>
-					<th>Ф.И.О.</th>
-					<th>Сайт</th>
-					<th>Курсовая</th>
-
+			    <tr ng-repeat = "student in students">
+					<th>{{student.name}}</th>
+					<th ng-if="$first">{{student.siteURL}}</th>
+					<th ng-if="!$first"><a href="{{student.siteURL}}"><img ng-src="{{student.picture}}" alt="Click me!" width="15" height="15"></a></th>
 				</tr>
 				
 			</table>
@@ -24,5 +24,23 @@
 		<p class = "center">
 			<button class="button" type="button" onclick="location.href='index.html'">Главная</button>
 		</p>
+
+		<script>
+			var app = angular.module('myApp', []);
+			app.controller('myCtrl', function($scope, $http) {
+				$http.get("data/703b1.json")
+						.then(function(response) {
+							$scope.students = response.data.students;
+							for (var i=0; i < $scope.students.length; ++i) {
+								var my_str = $scope.students[i].siteURL;
+								if (my_str !== "") {
+									$scope.students[i].picture = "pictures/green_one.png"
+								} else {
+									$scope.students[i].picture = "pictures/red_one.png"
+								}
+							}
+						});
+			});
+		</script>
 	</body>
 </html>
